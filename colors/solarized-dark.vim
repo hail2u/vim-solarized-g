@@ -20,6 +20,7 @@ let colors_name = "solarized-dark"
 hi ColorColumn   guifg=NONE     guibg=#073642  gui=NONE
 hi Conceal       guifg=#268bd2  guibg=NONE     gui=NONE
 hi Cursor        guifg=#002b36  guibg=#839496  gui=NONE
+hi CursorIM      guifg=#002b36  guibg=#dc322f  gui=NONE
 hi CursorColumn  guifg=NONE     guibg=#073642  gui=NONE
 hi CursorLine    guifg=NONE     guibg=#073642  gui=NONE
 hi DiffAdd       guifg=#719e07  guibg=#073642  gui=bold

@@ -63,7 +63,6 @@ hi VisualNOS     guifg=NONE     guibg=#eee8d5  gui=reverse
 hi WarningMsg    guifg=#dc322f  guibg=NONE     gui=bold
 hi WildMenu      guifg=#073642  guibg=#eee8d5  gui=reverse
 
-hi link lCursor      Cursor
 
 " Syntax
 hi Comment     guifg=#93a1a1  guibg=NONE  gui=NONE

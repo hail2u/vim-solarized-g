@@ -31,7 +31,7 @@ hi DiffText      guifg=#268bd2  guibg=#073642  gui=bold
 hi Directory     guifg=#268bd2  guibg=NONE     gui=NONE
 hi ErrorMsg      guifg=#dc322f  guibg=NONE     gui=reverse
 hi FoldColumn    guifg=#839496  guibg=#073642  gui=NONE
-hi Folded        guifg=#839496  guibg=#073642  gui=bold,underline  guisp=#002b36
+hi Folded        guifg=#839496  guibg=#073642  gui=bold,underline
 hi IncSearch     guifg=#cb4b16  guibg=NONE     gui=standout
 hi LineNr        guifg=#586e75  guibg=#073642  gui=NONE
 hi MatchParen    guifg=#dc322f  guibg=#586e75  gui=bold

@@ -23,6 +23,7 @@ hi Cursor        guifg=#002b36  guibg=#839496  gui=NONE
 hi CursorIM      guifg=#002b36  guibg=#dc322f  gui=NONE
 hi CursorColumn  guifg=NONE     guibg=#073642  gui=NONE
 hi CursorLine    guifg=NONE     guibg=#073642  gui=NONE
+hi CursorLineNr  guifg=NONE     guibg=#073642  gui=NONE
 hi DiffAdd       guifg=#719e07  guibg=#073642  gui=bold
 hi DiffChange    guifg=#b58900  guibg=#073642  gui=bold
 hi DiffDelete    guifg=#dc322f  guibg=#073642  gui=bold
@@ -62,9 +63,7 @@ hi VisualNOS     guifg=NONE     guibg=#073642  gui=reverse
 hi WarningMsg    guifg=#dc322f  guibg=NONE     gui=bold
 hi WildMenu      guifg=#eee8d5  guibg=#073642  gui=reverse
 
-hi link CursorLineNr CursorLine
 hi link lCursor Cursor
-
 
 " Syntax
 hi Comment     guifg=#586e75  guibg=NONE  gui=NONE

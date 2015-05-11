@@ -3,7 +3,7 @@
 " Author:     Ethan Schoonover <es@ethanschoonover.com>
 " URL:        http://ethanschoonover.com/solarized
 " Maintainer: Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)
-" Version:    15.05.10
+" Version:    15.05.12
 " License:    MIT (see end of this file)
 
 set background=dark
@@ -13,7 +13,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "solarized-dark"
+let colors_name = "solarized-g-dark"
 
 
 " General

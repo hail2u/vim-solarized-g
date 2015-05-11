@@ -53,9 +53,9 @@ hi SpellLocal    guifg=NONE     guibg=NONE     gui=undercurl  guisp=#b58900
 hi SpellRare     guifg=NONE     guibg=NONE     gui=undercurl  guisp=#2aa198
 hi StatusLine    guifg=#93a1a1  guibg=#073642  gui=reverse
 hi StatusLineNC  guifg=#657b83  guibg=#073642  gui=reverse
-hi TabLine       guifg=#839496  guibg=#073642  gui=underline  guisp=#839496
-hi TabLineFill   guifg=#839496  guibg=#073642  gui=underline  guisp=#839496
-hi TabLineSel    guifg=#586e75  guibg=#eee8d5  gui=underline,reverse  guisp=#839496
+hi TabLine       guifg=#586e75  guibg=#073642  gui=underline
+hi TabLineFill   guifg=#839496  guibg=#073642  gui=underline
+hi TabLineSel    guifg=#839496  guibg=#002b36  gui=NONE
 hi Title         guifg=#cb4b16  guibg=NONE     gui=bold
 hi VertSplit     guifg=#657b83  guibg=#657b83  gui=NONE
 hi Visual        guifg=#586e75  guibg=#002b36  gui=reverse

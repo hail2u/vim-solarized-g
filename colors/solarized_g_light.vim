@@ -1,71 +1,71 @@
 " Vim color file
-" Name:       solarized-dark
+" Name:       solarized_g_light
 " Author:     Ethan Schoonover <es@ethanschoonover.com>
 " URL:        http://ethanschoonover.com/solarized
 " Maintainer: Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)
-" Version:    15.05.12
+" Version:    16.4.4
 " License:    MIT (see end of this file)
 
-set background=dark
+set background=light
 hi clear
 
 if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "solarized-g-dark"
+let colors_name = "solarized_g_light"
 
 
 " General
-hi ColorColumn   guifg=NONE     guibg=#073642  gui=NONE
+hi ColorColumn   guifg=NONE     guibg=#eee8d5  gui=NONE
 hi Conceal       guifg=#268bd2  guibg=NONE     gui=NONE
-hi Cursor        guifg=#002b36  guibg=#839496  gui=NONE
-hi CursorIM      guifg=#002b36  guibg=#dc322f  gui=NONE
-hi CursorColumn  guifg=NONE     guibg=#073642  gui=NONE
-hi CursorLine    guifg=NONE     guibg=#073642  gui=NONE
-hi CursorLineNr  guifg=NONE     guibg=#073642  gui=NONE
-hi DiffAdd       guifg=#719e07  guibg=#073642  gui=bold
-hi DiffChange    guifg=#b58900  guibg=#073642  gui=bold
-hi DiffDelete    guifg=#dc322f  guibg=#073642  gui=bold
-hi DiffText      guifg=#268bd2  guibg=#073642  gui=bold
+hi Cursor        guifg=#fdf6e3  guibg=#657b83  gui=NONE
+hi CursorIM      guifg=#fdf6e3  guibg=#dc322f  gui=NONE
+hi CursorColumn  guifg=NONE     guibg=#eee8d5  gui=NONE
+hi CursorLine    guifg=NONE     guibg=#eee8d5  gui=NONE
+hi CursorLineNr  guifg=NONE     guibg=#eee8d5  gui=NONE
+hi DiffAdd       guifg=#719e07  guibg=#eee8d5  gui=bold
+hi DiffChange    guifg=#b58900  guibg=#eee8d5  gui=bold
+hi DiffDelete    guifg=#dc322f  guibg=#eee8d5  gui=bold
+hi DiffText      guifg=#268bd2  guibg=#eee8d5  gui=bold
 hi Directory     guifg=#268bd2  guibg=NONE     gui=NONE
 hi ErrorMsg      guifg=#dc322f  guibg=NONE     gui=reverse
-hi FoldColumn    guifg=#839496  guibg=#073642  gui=NONE
-hi Folded        guifg=#839496  guibg=#073642  gui=bold,underline
+hi FoldColumn    guifg=#657b83  guibg=#eee8d5  gui=NONE
+hi Folded        guifg=#657b83  guibg=#eee8d5  gui=bold,underline
 hi IncSearch     guifg=#cb4b16  guibg=NONE     gui=standout
-hi LineNr        guifg=#586e75  guibg=#073642  gui=NONE
-hi MatchParen    guifg=#dc322f  guibg=#586e75  gui=bold
+hi LineNr        guifg=#93a1a1  guibg=#eee8d5  gui=NONE
+hi MatchParen    guifg=#dc322f  guibg=#93a1a1  gui=bold
 hi ModeMsg       guifg=#268bd2  guibg=NONE     gui=NONE
 hi MoreMsg       guifg=#268bd2  guibg=NONE     gui=NONE
-hi NonText       guifg=#657b83  guibg=NONE     gui=bold
-hi Normal        guifg=#839496  guibg=#002b36  gui=NONE
-hi Pmenu         guifg=#839496  guibg=#073642  gui=reverse
-hi PmenuSbar     guifg=#eee8d5  guibg=#839496  gui=reverse
-hi PmenuSel      guifg=#586e75  guibg=#eee8d5  gui=reverse
-hi PmenuThumb    guifg=#839496  guibg=#002b36  gui=reverse
+hi NonText       guifg=#839496  guibg=NONE     gui=bold
+hi Normal        guifg=#657b83  guibg=#fdf6e3  gui=NONE
+hi Pmenu         guifg=#657b83  guibg=#eee8d5  gui=reverse
+hi PmenuSbar     guifg=#073642  guibg=#657b83  gui=reverse
+hi PmenuSel      guifg=#93a1a1  guibg=#073642  gui=reverse
+hi PmenuThumb    guifg=#657b83  guibg=#fdf6e3  gui=reverse
 hi Question      guifg=#2aa198  guibg=NONE     gui=bold
 hi Search        guifg=#b58900  guibg=NONE     gui=reverse
-hi SignColumn    guifg=#839496  guibg=#073642  gui=NONE
-hi SpecialKey    guifg=#657b83  guibg=#073642  gui=bold
+hi SignColumn    guifg=#657b83  guibg=#eee8d5  gui=NONE
+hi SpecialKey    guifg=#839496  guibg=#eee8d5  gui=bold
 hi SpellBad      guifg=NONE     guibg=NONE     gui=undercurl  guisp=#dc322f
 hi SpellCap      guifg=NONE     guibg=NONE     gui=undercurl  guisp=#6c71c4
 hi SpellLocal    guifg=NONE     guibg=NONE     gui=undercurl  guisp=#b58900
 hi SpellRare     guifg=NONE     guibg=NONE     gui=undercurl  guisp=#2aa198
-hi StatusLine    guifg=#93a1a1  guibg=#073642  gui=reverse
-hi StatusLineNC  guifg=#657b83  guibg=#073642  gui=reverse
-hi TabLine       guifg=#586e75  guibg=#073642  gui=underline
-hi TabLineFill   guifg=#839496  guibg=#073642  gui=underline
-hi TabLineSel    guifg=#839496  guibg=#002b36  gui=NONE
+hi StatusLine    guifg=#586e75  guibg=#eee8d5  gui=reverse
+hi StatusLineNC  guifg=#839496  guibg=#eee8d5  gui=reverse
+hi TabLine       guifg=#eee8d5  guibg=#93a1a1  gui=NONE
+hi TabLineFill   guifg=#eee8d5  guibg=#93a1a1  gui=NONE
+hi TabLineSel    guifg=#fdf6e3  guibg=#657b83  gui=NONE
 hi Title         guifg=#cb4b16  guibg=NONE     gui=bold
-hi VertSplit     guifg=#657b83  guibg=#657b83  gui=NONE
-hi Visual        guifg=#586e75  guibg=#002b36  gui=reverse
-hi VisualNOS     guifg=NONE     guibg=#073642  gui=reverse
+hi VertSplit     guifg=#839496  guibg=#839496  gui=NONE
+hi Visual        guifg=#93a1a1  guibg=#fdf6e3  gui=reverse
+hi VisualNOS     guifg=NONE     guibg=#eee8d5  gui=reverse
 hi WarningMsg    guifg=#dc322f  guibg=NONE     gui=bold
-hi WildMenu      guifg=#eee8d5  guibg=#073642  gui=reverse
+hi WildMenu      guifg=#073642  guibg=#eee8d5  gui=reverse
 
 
 " Syntax
-hi Comment     guifg=#586e75  guibg=NONE  gui=NONE
+hi Comment     guifg=#93a1a1  guibg=NONE  gui=NONE
 hi Constant    guifg=#2aa198  guibg=NONE  gui=NONE
 hi Error       guifg=NONE     guibg=NONE  gui=undercurl  guisp=#dc322f
 hi Identifier  guifg=#268bd2  guibg=NONE  gui=NONE
